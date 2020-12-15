@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slipknot</title>
+    <link rel="shortcut icon" href="Imagenes/favicon1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <scrip src="javascripts/misfunciones.js">
+    
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <!-- en href hay que indicar el id de la section con la que quiero enlazar el vinculo -->
+                <a href="#hero" class="active">Inicio</a>
+                <a href="#historia">¿Qué Es Slipknot?</a>
+                <a href="#yoquese1">Albums</a>
+                <a href="#galeria">Galeria de fotos</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <!-- HERO SECTION CON IMAGEN FIJA Y TEXTO -->
+        <section id="hero">
+            <h1>Slipknot</h1>
+            <h2>Pagina para fans</h2>
+        </section>
+        <!-- INTRODUCCION ES UNA SECTION CON SOLO TEXTO -->
+        <section id="introduccion">
+            <p>Página creada por un fan de la banda, para otros fans.</p>
+            <p>Dedicada a la banda de metal Slipknot mostranto todos sus datos y curiosidades.</p>
+        </section>
+        <section id="historia">
+            <p>Slipknot es una banda estadounidense de metal alternativo formada en 1995 en Des Moines, Iowa, Estados Unidos. Desde el año 1999 hasta 2010 mantuvo su formación más exitosa después de diversos cambios en la misma. Sus integrantes en la actualidad son Corey Taylor, Craig Jones, Jim Root, Mick Thomson, Shawn Crahan, Sid Wilson, Alessandro Venturella, Jay Weinberg y Michael Pfaff. Slipknot es conocida por las máscaras características de cada uno de sus miembros, que cambia conforme han sacado más discografía, teniendo algunas su propio significado.</p>
+        </section>
+        <!-- SECTION DIVIDIDA EN DOS COLUMNAS Y RESPONSIVE -->
+        <!-- La section tiene una clase de tipo grid 2 columnas-->
+        <section id="otracosa" class="grid-2">
+            <!-- pongo dos bloques div de la clase item-grid -->
+            <div class="item-grid-2">
+                <img id="grupo1" src="imagenes/grupo1.jpg" alt="imagen del comienzo de Slipknot">
+            </div>
+            <div class="item-grid-2">
+                <p>Sus miembros utilizan dos tipos de guitarra (principal y rítmica), un bajo, dos instrumentos de percusión personalizados, una batería e instrumentos electrónicos como sampler o mesas de mezclas. El sonido de la banda ha sido descrito como "una máquina trilladora devorando un grupo de tambores militares".2​ El vocalista Corey Taylor también incorpora diversos estilos vocales, como por ejemplo la voz gutural, el canto melódico y el rapeo, mientras que las letras en general tienen un tono agresivo. Las influencias de la banda incluyen, entre otros géneros, el death metal, el thrash metal y el heavy metal, aunque suelen ser incluidos con asiduidad dentro del metal alternativo y el nu metal.</p>
+                <p>Los inicios de Slipknot se remontan al año 1992.En 1999 la banda lanzó su exitoso debut homónimo con Corey Taylor como nuevo vocalista. Desde entonces, han publicado 6 álbumes de estudio: Slipknot (1999), Iowa (2001), Vol. 3: The Subliminal Verses (2004), All Hope Is Gone (2008), que debutó en la posición #1 dentro del Billboard 200, .5: The Gray Chapter (2014) siendo este el segundo álbum de la banda en debutar en el número uno de Billboard 200, vendiendo 132.000 copias en su primera semana, y We Are Not Your Kind (2019). La banda ha lanzado cinco DVD, incluyendo Disasterpieces, del cual se han vendido 3 millones de copias en Estados Unidos. Slipknot ha vendido más de 20 millones de álbumes en todo el mundo.</p>
+            </div>
+        </section>
+        <h1 id="enlaces">Enlaces a los albums</h1>
+            <!-- seccion con grid de 4 columnas-->
+        <section id="yoquese1" class="grid-4">
+            <div class="item-grid-4">
+                <img src="imagenes/album1.jpg">
+                <p>Slipknot (1999)</p>
+                <button onclick="document.location.href='https://www.youtube.com/watch?v=g9ARDbWuGIY&list=OLAK5uy_ng4bRghc6r9fe2wceefMVTa_uuSDUhuVE'">Ver album</button>
+            </div>
+            <div class="item-grid-4">
+                <img src="imagenes/album2.jpg">
+                <p>IOWA (2001)</p>
+                <button onclick="document.location.href='https://www.youtube.com/watch?v=qr5spx6mmYQ&list=OLAK5uy_koce7px0VmK1rsB31P4t9cKuVaa5hKpto'">Ver album</button>
+            </div>
+            <div class="item-grid-4">
+                <img src="imagenes/album3.jpg">
+                <p>Vol. 3: The Subliminal Verses (2004)</p>
+                <button onclick="document.location.href='https://www.youtube.com/watch?v=ds1xo-Hfq68&list=OLAK5uy_m-IDnPGDj1vK5j46Uyx0rWIlVz1l6GvTI'">Ver album</button>
+            </div>
+            <div class="item-grid-4">
+                <img src="imagenes/album4.jpg">
+                <p>All Hope Is Gone (2008)</p>
+                <button onclick="document.location.href='https://www.youtube.com/watch?v=h_htyBV4XWM&list=OLAK5uy_nqZ8GfhUcCvyMHJuIkyOLEAjG_LxgJ87k'">Ver album</button>
+            </div>
+            <div class="item-grid-4">
+                <img src="imagenes/album5.jpg">
+                <p>.5: The Gray Chapter (2014)</p>
+                <button onclick="document.location.href='https://www.youtube.com/watch?v=2tSsRRSgj6U&list=OLAK5uy_l7XxNku8D95Pnr7UVC8IyBTdP_3kdxSd8'">Ver album</button>
+            </div>
+            <div class="item-grid-4">
+                <img src="imagenes/album6.jpg">
+                <p>We Are Not Your Kind (2019)</p>
+                <button onclick="document.location.href='https://www.youtube.com/watch?v=neliFsn2g-I&list=OLAK5uy_k0voqAMErjYWLKExWDMZFEWpInRV-fW5w'">Ver album</button>
+            </div>
+        </section>
+        <!-- Seccion de la galeria -->
+        <section id="galeria">
+            <h1 id="galeriat">Galeria de fotos</h1>
+            <div class="row">
+                <div class="column">
+                  <img src="imagenes/galeria/corey1.jfif">
+                  <img src="imagenes/galeria/james1.png">
+                  <img src="imagenes/galeria/jay1.jfif">
+                  <img src="imagenes/galeria/pinchos1.jpg">
+                  <img src="imagenes/galeria/sid1.jpg">
+                  <img src="imagenes/galeria/tom1.jpg">
+                  <img src="imagenes/galeria/alessandro1.jpg">
+                </div>
+                <div class="column">
+                  <img src="imagenes/galeria/corey2.jpg">
+                  <img src="imagenes/galeria/payaso1.jpg">
+                  <img src="imagenes/galeria/tortilla1.jpg">
+                  <img src="imagenes/galeria/grupo3.jpg">
+                  <img src="imagenes/galeria/grupo6.jpg">
+                  <img src="imagenes/galeria/grupo8.jpg">
+                </div>
+                <div class="column">
+                  <img src="imagenes/galeria/simbolo3.jpg">
+                  <img src="imagenes/galeria/simbolo5.jpg">
+                  <img src="imagenes/galeria/simbolo7.jpg">
+                  <img src="imagenes/galeria/simbolo2.jpg">
+                  <img src="imagenes/galeria/simbolo1.jpg">
+                  <img src="imagenes/galeria/grupo7.jpg">
+                  <img src="imagenes/galeria/grupo9.jpg">
+                </div>
+                <div class="column">
+                  <img src="imagenes/galeria/grupo4.jpg">
+                  <img src="imagenes/galeria/grupo5.jpg">
+                  <img src="imagenes/galeria/grupo2.jpg">
+                  <img src="imagenes/galeria/grupo11.jpg">
+                  <img src="imagenes/galeria/simbolo8.jpg">
+                  <img src="imagenes/galeria/simbolo9.jpg">
+                </div>
+              </div>
+        </section>
+        <footer>
+            <!-- seccion con grid de 4 columnas-->
+        <section id="yoquese2" class="grid-3">
+            <div class="itemgrid-3">
+                <h2>Redes sociales</h2>
+                <p><a href="https://twitter.com/slipknot"><i class="fa fa-twitter" aria-hidden="true"></a></i>Twitter - @slipknot</p>
+
+                <p><a href="https://www.instagram.com/slipknot/?hl=es"><i class="fa fa-instagram" aria-hidden="true"></a></i>Instagram - Slipknot</p>
+
+                <p><a href="https://es-es.facebook.com/slipknot/"><i class="fa fa-facebook" aria-hidden="true"></a></i>Facebook - @slipknot</p>
+
+                <p><a href="https://www.youtube.com/user/slipknot"><i class="fa fa-youtube" aria-hidden="true"></a></i>Youtube - Slipknot</p>
+
+                <p><a href="https://open.spotify.com/artist/05fG473iIaoy82BF1aGhL8?si=7xR3FPxMRcC6ZPG51JOdbw"><i class="fa fa-spotify" aria-hidden="true"></a></i>Spotify - Slipknot</p>
+            </div>
+            <div class="itemgrid-3">
+                <h2>Merchandising</h2>
+                <p><a href="https://slipknotmerch.com"><i class="fa fa-shopping-bag" aria-hidden="true"></a></i>Pagina oficial de merchandising</p>
+            </div>
+            <div class="itemgrid-3">
+                <h2></h2>
+            </div>
+        </footer>
+    </div>
+
+    <script src="javascripts/funciones.js"></script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        var modal2 = document.getElementById("myModal2");
+        var modal3 = document.getElementById("myModal2");
+        var modal4 = document.getElementById("myModal2");
+        var modal5 = document.getElementById("myModal2");
+        var modal6 = document.getElementById("myModal2");
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        var btn2 = document.getElementById("myBtn2");
+        var btn3 = document.getElementById("myBtn2");
+        var btn4 = document.getElementById("myBtn2");
+        var btn5 = document.getElementById("myBtn2");
+        var btn6 = document.getElementById("myBtn2");
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        var span2 = document.getElementsByClassName("close")[1];
+        var span3 = document.getElementsByClassName("close")[2];
+        var span4 = document.getElementsByClassName("close")[3];
+        var span5 = document.getElementsByClassName("close")[4];
+        var span6 = document.getElementsByClassName("close")[5];
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+        modal.style.display = "block";
+        }
+        btn2.onclick = function() {
+        modal2.style.display = "block";
+        }
+        btn3.onclick = function() {
+        modal3.style.display = "block";
+        }
+        btn4.onclick = function() {
+        modal4.style.display = "block";
+        }
+        btn5.onclick = function() {
+        modal5.style.display = "block";
+        }
+        btn6.onclick = function() {
+        modal6.style.display = "block";
+        }
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+        span2.onclick = function() {
+        modal2.style.display = "none";
+        }
+        span3.onclick = function() {
+        modal3.style.display = "none";
+        }
+        span4.onclick = function() {
+        modal4.style.display = "none";
+        }
+        span5.onclick = function() {
+        modal5.style.display = "none";
+        }
+        span6.onclick = function() {
+        modal6.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        }
+        </script>
+</body>
+</html>
